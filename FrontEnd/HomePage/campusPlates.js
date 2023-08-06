@@ -1,10 +1,10 @@
 let ele = document.getElementsByClassName("signup")[0];
 let ele2 = document.getElementsByClassName("signup")[1];
 ele.addEventListener("click",function(){
-    window.location.href = "campusplatesLogin.html";
+    window.location.href = "/HomePageconnectedParts/campusplatesLogin.html";
 })
 ele2.addEventListener("click",function(){
-    window.location.href = "campusplatesLogin.html";
+    window.location.href = "/HomePageconnectedParts/campusplatesLogin.html";
 })
 function statusChangeCallback(response) {  // Called with the results from FB.getLoginStatus().
     console.log('statusChangeCallback');
